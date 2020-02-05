@@ -1,7 +1,6 @@
 package com.timelysoft.googlemaptest1.activity;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.LinearLayout;
@@ -107,7 +106,5 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         LatLng Bishkek = new LatLng(42.875344, 74.590485);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Bishkek, 11));
-
-
     }
 }
